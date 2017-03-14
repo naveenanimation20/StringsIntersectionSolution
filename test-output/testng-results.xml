@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5624" started-at="2017-03-14T16:44:25Z" finished-at="2017-03-14T16:44:30Z">
+  <suite name="Default suite" duration-ms="5923" started-at="2017-03-14T18:42:22Z" finished-at="2017-03-14T18:42:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5624" started-at="2017-03-14T16:44:25Z" finished-at="2017-03-14T16:44:30Z">
+    <test name="Default test" duration-ms="5923" started-at="2017-03-14T18:42:22Z" finished-at="2017-03-14T18:42:27Z">
       <class name="IntersectionTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:IntersectionTest@6d8a00e3]" name="setUp" is-config="true" duration-ms="29" started-at="2017-03-14T22:14:25Z" finished-at="2017-03-14T22:14:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:IntersectionTest@6d8a00e3]" name="setUp" is-config="true" duration-ms="26" started-at="2017-03-15T00:12:22Z" finished-at="2017-03-15T00:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IntersectionWithHashImpTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="IntersectionWithHashImpTest" duration-ms="40" started-at="2017-03-14T22:14:25Z" finished-at="2017-03-14T22:14:25Z">
+        <test-method status="PASS" signature="IntersectionWithHashImpTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="IntersectionWithHashImpTest" duration-ms="48" started-at="2017-03-15T00:12:22Z" finished-at="2017-03-15T00:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IntersectionWithHashImpTest -->
-        <test-method status="PASS" signature="IntersectionWithHashIteratorTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="IntersectionWithHashIteratorTest" duration-ms="56" started-at="2017-03-14T22:14:25Z" finished-at="2017-03-14T22:14:25Z">
+        <test-method status="PASS" signature="IntersectionWithHashIteratorTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="IntersectionWithHashIteratorTest" duration-ms="40" started-at="2017-03-15T00:12:22Z" finished-at="2017-03-15T00:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IntersectionWithHashIteratorTest -->
-        <test-method status="PASS" signature="bruteForceIntersectionTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="bruteForceIntersectionTest" duration-ms="5460" started-at="2017-03-14T22:14:25Z" finished-at="2017-03-14T22:14:30Z">
+        <test-method status="PASS" signature="bruteForceIntersectionTest()[pri:0, instance:IntersectionTest@6d8a00e3]" name="bruteForceIntersectionTest" duration-ms="5779" started-at="2017-03-15T00:12:22Z" finished-at="2017-03-15T00:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bruteForceIntersectionTest -->

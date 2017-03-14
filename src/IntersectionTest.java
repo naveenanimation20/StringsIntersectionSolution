@@ -30,6 +30,7 @@ public class IntersectionTest {
 //		AL2.add("JIRA");
 //		AL2.add(null);
 		
+		//generateLargeList method: used to generate large list of strings
 		AL1 = generateLargeList(1,50000);
 		AL2 = generateLargeList(1000,20000);
 
