@@ -1,5 +1,21 @@
 # StringsIntersectionSolution
 
+Time difference in execution as the dataset size grows, between the 2 implementations:
+
+1. BruteForce Algorithm:
+
+ @description: ArrayList's contains() is O(n) and is called in a loop
+ which could be O(n²) for difficult cases traversing by for loop for 1st
+ ArrayList object ArrayList's contain() method
+ 
+ 
+2. HashSet DataStructure:
+
+ @description: use the property of HashSet: access is O(1), which means we
+ can achieve this in O(n) time traversing by for loop for 2nd ArrayList
+ bject but using HashSet's contains() to achieve fast O(1)
+       
+
 Data/Records  |   BruteForce Algo Time (sec)   |   HashSet DataStructure Time (sec)
       1                0.002                              0.007
       5                0.002                              0.006
