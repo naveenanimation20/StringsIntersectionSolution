@@ -32,7 +32,7 @@ public class IntersectionTest {
 		
 		//generateLargeList method: used to generate large list of strings
 		AL1 = generateLargeList(1,50000);
-		AL2 = generateLargeList(1000,20000);
+		AL2 = generateLargeList(1,60000);
 
 	}
 
@@ -141,14 +141,15 @@ public class IntersectionTest {
 		// final int N = 1000;
 		ArrayList<String> list = new ArrayList<String>();
 		String[] stringsArr = new String[end];
-		for (int i = start; i < end; ++i) {
-			stringsArr[i] = Integer.toString(i);
+		for (int i = start; i <= end; ++i) {
+			stringsArr[i-1] = Integer.toString(i);
 		}
 
 		System.out.print("ArrayList: ");
 		for (String s : stringsArr) {
 			list.add(s);
 		}
+		System.out.println(list);
 		System.out.println(list.size());
 		return list;
 	}
